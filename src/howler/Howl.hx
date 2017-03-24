@@ -179,7 +179,7 @@ typedef HowlOptions = {
 	 * howler.js automatically detects your file format from the extension, but you may also
 	 * specify a format in situations where extraction won't work (such as with a SoundCloud stream).
 	 */
-	@:optional var ext:Array<String>;
+	@:optional var format:Array<String>;
 	/**
 	 * Set to true to force HTML5 Audio. This should be used for large audio files
 	 * so that you don't have to wait for the full file to be downloaded and decoded before playing.
